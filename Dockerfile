@@ -1,4 +1,4 @@
-FROM hub.iot.chinamobile.com/library/golang:1.9.2
+FROM golang:1.12.13
 
 WORKDIR $GOPATH/bin
 
